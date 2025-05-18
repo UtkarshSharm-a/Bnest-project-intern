@@ -156,11 +156,7 @@ h2 {
     margin-left: 30px;
 }
 
-.section-para {
-    margin-top: 30px;
-    padding: 1rem 4rem;
 
-}
 
 .selection-content p,
 .selection-content ul {
@@ -182,52 +178,62 @@ h2 {
 }
 
 
+/* Base styles */
+/* Base styles */
+.section-para {
+    margin-top: 30px;
+    padding: 2rem 4rem;
+}
 
 .highlights {
     color: #b85a9b;
-
 }
 
 .para0 {
-    margin-left: 5px;
-    justify-content: space-around;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
 }
 
 .para6 {
-    margin-left: 20px;
-    justify-content: space-around;
     margin-top: 40px;
 }
 
 .lines {
-    margin-top: 20px;
+    margin-top: 2rem;
     font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+}
 
-}
-.line1{
-    font-size: 1.5rem;
-    margin-top: .5rem;
-    width: 97%;
+.line1 {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
     line-height: 2rem;
+    color: #444;
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
 }
+
+
+
 
 .para5 {
     display: flex;
     align-items: center;
-    /* Vertically center the content */
     justify-content: center;
-    /* Horizontally center the content */
     margin-top: 30px;
     margin-bottom: -80px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .highlighted,
 .highlighting {
-    margin-bottom: 200px;
     font-size: 2.5rem;
-    /* Make sure both elements have the same font size */
     white-space: nowrap;
-    /* Prevent text from breaking onto new lines */
+    margin-bottom: 200px;
 }
 
 .highlighted {
@@ -242,28 +248,42 @@ h2 {
     color: #0a0a0a;
 }
 
-
 .last {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
     margin-top: 5vh;
 }
-h3{
-    font-size: 1.3rem;
+
+.first, .second, .third {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: left;
+}
+
+ul {
+    padding-left: 1rem;
 }
 
 .first ul li,
 .second ul li,
 .third ul li {
-    margin-bottom: 8px;
-    font-size: 1.3rem;
-    width: 80%;
-    margin-top: 1rem;
-}
-
-.pin .second ul li {
-    margin-bottom: 0.5em;
-    /* You can adjust this value */
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #444;
+    width: 85%;
 }
 
 
@@ -924,28 +944,7 @@ h3{
         line-height: 1.5;
     }
 
-    .pin {
-        text-align: center;
-        /* Center section content */
-        margin-top: -8rem;
-    }
-
-    .pin ul {
-        display: inline-block;
-        /* Shrink list to content width */
-        text-align: left;
-        /* Align list items nicely */
-        list-style-position: outside;
-        padding-left: 1.2em;
-        /* Space for bullets */
-        margin: 0;
-    }
-
-    .pin li {
-        padding-left: 0.2em;
-        /* Optional: adjust gap between bullet and text */
-    }
-
+   
 
 
     .apply-btn {
@@ -955,23 +954,7 @@ h3{
         margin-top: 20px;
     }
 
-    .last {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .para5 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* Center vertically */
-        align-items: center;
-        /* Center horizontally */
-    }
-    .para5 h1{
-        display: none;
-    }
-
+  
     .middle-fotter {
         padding: 1.5rem;
         gap: 1rem;
@@ -1003,30 +986,8 @@ h3{
         padding: 10px 20px;
     }
 
-    .para6 {
-        margin-left: 20px;
-        justify-content: space-around;
-        margin-top: 20px;
-    }
 
-    .lines {
-        margin-top: 20px;
-    }
 
-    .highlighted {
-        font-size: 20px;
-    }
-
-    .para5 {
-        font-size: 20px;
-        display: flex;
-        align-items: center;
-        /* Vertically center the content */
-        justify-content: center;
-        /* Horizontally center the content */
-        margin-top: 200px;
-        margin-bottom: -180PX;
-    }
 
 
 }
@@ -1055,28 +1016,6 @@ h3{
         font-size: 32px;
     }
 
-    .pin {
-        text-align: center;
-        /* Center section content */
-        margin-top: -8rem;
-    }
-
-    .pin ul {
-        display: inline-block;
-        /* Shrink list to content width */
-        text-align: left;
-        /* Align list items nicely */
-        list-style-position: outside;
-        padding-left: 1.2em;
-        /* Space for bullets */
-        margin: 0;
-    }
-
-    .pin li {
-        padding-left: 0.2em;
-        /* Optional: adjust gap between bullet and text */
-    }
-
 
     .apply-btn {
         width: 90%;
@@ -1097,33 +1036,8 @@ h3{
         padding: 1rem 2rem;
     }
 
-    .para6 {
-        margin-left: 20px;
-        justify-content: space-around;
-        margin-top: 20px;
-    }
-
-    .lines {
-        margin-top: 20px;
-    }
-
-    .highlighted {
-        font-size: 20px;
-    }
-
-    .para5 {
-        font-size: 20px;
-        display: flex;
-        align-items: center;
-        /* Vertically center the content */
-        justify-content: center;
-        /* Horizontally center the content */
-        margin-top: 20px;
-        margin-bottom: 10PX;
-    }
-           .para5 h1{
-        font-size: .1rem;
-    }
+  
+ 
 
 
 
@@ -1136,29 +1050,6 @@ h3{
 
     .selection-section {
         padding: 20px 15px;
-    }
-
-    .pin {
-        text-align: center;
-        /* Center section content */
-        margin-top: -8rem;
-    }
-    
-
-    .pin ul {
-        display: inline-block;
-        /* Shrink list to content width */
-        text-align: left;
-        /* Align list items nicely */
-        list-style-position: outside;
-        padding-left: 1.2em;
-        /* Space for bullets */
-        margin: 0;
-    }
-
-    .pin li {
-        padding-left: 0.2em;
-        /* Optional: adjust gap between bullet and text */
     }
 
 
@@ -1201,33 +1092,6 @@ h3{
         max-width: 200px;
     }
 
-    .para6 {
-        font-size: 20px;
-        margin-left: 20px;
-        justify-content: space-around;
-        margin-top: 20px;
-    }
-
-    .lines {
-        margin-top: 20px;
-    }
-
-    .highlighted {
-        font-size: 20px;
-    }
-
-    .para5 {
-        font-size: 20px;
-        display: flex;
-        align-items: center;
-        /* Vertically center the content */
-        justify-content: center;
-        /* Horizontally center the content */
-        margin-top: 3rem;
-    }
-    .para5 h1{
-        font-size: .1rem;
-    }
 
 
 }
@@ -1276,9 +1140,7 @@ h3{
         text-align: center;
     }
 
-    .pin {
-        margin-top: -190px;
-    }
+
 
     .middle-fotter-1,
     .middle-fotter-2,
@@ -1299,32 +1161,7 @@ h3{
         padding: 1rem 2vw;
     }
 
-    .para6 {
-        margin-left: 20px;
-        justify-content: space-around;
-        margin-top: 10px;
-    }
-
-    .lines {
-        margin-top: 20px;
-    }
-
-    .highlighted {
-        margin-bottom: 100px;
-        font-size: 20px;
-    }
-
-    .para5 {
-        font-size: 230px;
-        display: flex;
-        align-items: center;
-        /* Vertically center the content */
-        justify-content: center;
-        /* Horizontally center the content */
-        margin-top: 60px;
-        margin-bottom: -100PX;
-    }
-
+ 
 
 }
 
@@ -1350,7 +1187,7 @@ nav {
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
 /* Tablet and smaller */
@@ -1446,4 +1283,133 @@ nav {
   h1 {
     font-size: 1.2rem;
   }
+}
+
+
+
+/* Tablets (width between 600px and 900px) */
+@media (max-width: 900px) {
+    .highlighted,
+    .highlighting {
+        font-size: 2rem;
+        margin-bottom: 150px;
+        white-space: normal;
+    }
+}
+
+/* Phones (width less than 600px) */
+@media (max-width: 600px) {
+    .highlighted,
+    .highlighting {
+        font-size: 1.5rem;
+        margin-bottom: 100px;
+        white-space: normal;
+    }
+
+    .para5 {
+        margin-bottom: -40px;
+    }
+}
+
+/* MacBook Air (typically 1440px width) */
+@media (min-width: 1200px) {
+    .highlighted,
+    .highlighting {
+        font-size: 2.5rem;
+        margin-bottom: 200px;
+    }
+}
+
+
+
+/* Responsive for Tablets (600px - 1024px) */
+@media (max-width: 1024px) {
+    .last {
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    .first ul li,
+    .second ul li,
+    .third ul li {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+}
+
+/* Responsive for Phones (less than 600px) */
+@media (max-width: 600px) {
+    .last {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .first, .second, .third {
+        width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .first ul li,
+    .second ul li,
+    .third ul li {
+        font-size: 1rem;
+        width: 100%;
+    }
+}
+
+/* MacBook Air - default screen width optimization */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .last {
+        padding: 2rem 4rem;
+    }
+
+    .first, .second, .third {
+        max-width: 380px;
+    }
+}
+
+
+
+/* Tablet Responsive (600px - 1024px) */
+@media (max-width: 1024px) {
+    .section-para {
+        padding: 1.5rem 2rem;
+    }
+
+    .para0,
+    .lines {
+        font-size: 1.4rem;
+    }
+
+    .line1 {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+}
+
+/* Phone Responsive (<600px) */
+@media (max-width: 600px) {
+    .section-para {
+        padding: 1rem;
+    }
+
+    .para0,
+    .lines {
+        font-size: 1.3rem;
+    }
+
+    .line1 {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
 }

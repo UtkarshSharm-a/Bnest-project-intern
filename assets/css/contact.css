@@ -929,7 +929,7 @@ nav {
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
 @media (max-width: 900px) {
