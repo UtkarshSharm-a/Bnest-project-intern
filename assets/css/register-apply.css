@@ -152,9 +152,6 @@ h2 {
     color: transparent;
 }
 
-.line {
-    margin-left: 30px;
-}
 
 
 
@@ -350,9 +347,10 @@ ul {
     height: auto;
 }
 
-.middle-fotter-1 h3 {
+.middle-fotter-1 h4 {
     font-size: 0.9rem;
     line-height: 1.4rem;
+    color: white;
 }
 
 .middle-fotter-1-smart {
