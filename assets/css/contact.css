@@ -346,6 +346,7 @@ textarea.forminput {
 
   .background-section {
     height: 200px;
+    overflow: hidden;
   }
 
   .contact-section {
@@ -387,6 +388,8 @@ textarea.forminput {
 
   .background-section {
     height: 200px;
+        overflow: hidden;
+
   }
 
 
@@ -452,6 +455,8 @@ textarea.forminput {
 
   .background-section {
     height: 180px;
+        overflow: hidden;
+
   }
 
   .content-section {
@@ -818,6 +823,8 @@ textarea.forminput {
 
   .background-section {
     height: 250px;
+        overflow: hidden;
+
   }
 
   .content-section {
@@ -982,3 +989,5 @@ nav {
     height: 200px;
   }
 }
+
+
