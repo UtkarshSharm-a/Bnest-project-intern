@@ -185,6 +185,10 @@ nav {
     color: white;
 }
 
+.middle-fotter-2 ,.middle-fotter-3{
+    margin-top: .7rem;
+}
+
 @media (max-width: 767px) {
     .middle-fotter {
         flex-direction: column;

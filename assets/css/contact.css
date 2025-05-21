@@ -193,6 +193,8 @@ nav {
   border-bottom: 2px solid #e8e0e0;
   position: relative;
   margin: 20px 0px;
+  color: white;
+
 }
 
 .inputb label {
@@ -233,6 +235,27 @@ textarea.forminput {
   font-size: 12px;
   color: #f5f5f5;
 }
+/* .inputb label {
+  font-size: 14px;
+  color: #e8e0e0;
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  transition: 0.3s ease;
+  pointer-events: none;
+}
+
+.forminput:focus + label,
+.forminput:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 5px;
+  font-size: 12px;
+  color: #f5f5f5;
+} */
+.forminput::placeholder {
+  color: white;
+  opacity: 1; /* optional: ensures full visibility */
+}
 
 
 .sendbtn {
@@ -241,7 +264,7 @@ textarea.forminput {
   height: 35px;
   border: none;
   background: #fff;
-  color: #000;
+  /* color: #000; */
   outline: none;
   cursor: pointer;
   transition: 0.5s;
@@ -622,6 +645,10 @@ textarea.forminput {
   margin: 0.5rem;
   color: white;
 }
+.middle-fotter-2 ,.middle-fotter-3{
+    margin-top: .7rem;
+}
+
 
 @media (max-width: 767px) {
   .middle-footer {

@@ -318,6 +318,9 @@ nav {
   margin: 0.5rem;
   color: white;
 }
+.middle-fotter-2 ,.middle-fotter-3{
+    margin-top: .7rem;
+}
 
 .section-three .bg-image-2 {
   background-image: url('/assets/page-images/mentors/Group\ 191.png');

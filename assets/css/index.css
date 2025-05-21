@@ -191,6 +191,10 @@ nav {
   margin: 0.5rem;
   color: white;
 }
+.middle-fotter-2 ,.middle-fotter-3{
+    margin-top: .7rem;
+}
+
 
 @media (max-width: 767px) {
   .middle-fotter {
@@ -228,8 +232,9 @@ nav {
     justify-content: center;
   }
 
-  .middle-fotter-4 img {
-    width: 80%;
+  .middle-fotter-4 iframe {
+    width: 95%;
+    height: 230px;
   }
 
 }

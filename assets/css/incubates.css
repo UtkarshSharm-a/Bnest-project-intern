@@ -307,6 +307,7 @@ nav {
   height: auto;
 }
 
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -373,6 +374,10 @@ nav {
   width: 13vw;
   height: auto;
 }
+.middle-fotter-2 ,.middle-fotter-3{
+    margin-top: .7rem;
+}
+
 
 .bottom-footer {
   width: 100%;

@@ -293,7 +293,7 @@ nav {
 .middle-footer-4 {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -368,6 +368,10 @@ nav {
   margin: 0.5rem;
   color: white;
 }
+.middle-fotter-2 ,.middle-fotter-3{
+    margin-top: .7rem;
+}
+
 
 @media (max-width: 767px) {
   .middle-footer {
